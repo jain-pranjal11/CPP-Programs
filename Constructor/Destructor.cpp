@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+class Demo{
+    public:
+        Demo(){
+            cout << "Constructor called." << endl;
+        }
+
+        ~Demo(){
+            cout << "Destructor called" << endl;
+        }
+};
+
+
+int main(){
+
+    Demo D1;
+    Demo D2;
+
+    return 0;
+}

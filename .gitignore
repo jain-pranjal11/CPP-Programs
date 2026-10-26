@@ -1,0 +1,12 @@
+
+# Compiled executable files
+*.exe
+*.out
+*.o
+*.obj
+
+# Build output
+build/
+
+# VS Code local settings (optional to track)
+.vscode/
